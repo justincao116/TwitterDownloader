@@ -1,0 +1,42 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+ <sys:String x:Key="AppTitle">X / Twitter 媒体下载器</sys:String>
+ <sys:String x:Key="AppSubtitle">粘贴推文链接，查找并保存其中的视频、GIF 或图片。</sys:String>
+ <sys:String x:Key="Settings">设置</sys:String>
+ <sys:String x:Key="PastePlaceholder">粘贴 x.com 或 twitter.com 推文链接...</sys:String>
+ <sys:String x:Key="Search">搜索</sys:String><sys:String x:Key="Searching">搜索中...</sys:String>
+ <sys:String x:Key="Download">下载</sys:String><sys:String x:Key="OpenBrowser">打开</sys:String>
+ <sys:String x:Key="Quality">清晰度</sys:String><sys:String x:Key="Close">关闭</sys:String>
+ <sys:String x:Key="SettingsTitle">设置</sys:String><sys:String x:Key="Language">界面语言</sys:String>
+ <sys:String x:Key="CookieSection">X Cookie</sys:String>
+ <sys:String x:Key="CookieDescription">可选，仅用于访问你的账号本身有权查看的内容。</sys:String>
+ <sys:String x:Key="CookieConfigured">已为当前 Windows 用户安全保存 Cookie。</sys:String>
+ <sys:String x:Key="CookieNotConfigured">尚未配置 Cookie。</sys:String>
+ <sys:String x:Key="CookiePlaceholder">粘贴完整 Cookie 字符串（必须包含 ct0）</sys:String>
+ <sys:String x:Key="SaveCookie">保存 / 替换</sys:String><sys:String x:Key="ClearCookie">清除 Cookie</sys:String>
+ <sys:String x:Key="CookieSecurityNote">Cookie 保存在 Windows 凭据管理器中，不会写入日志或 settings.json。</sys:String>
+ <sys:String x:Key="CookieInvalid">Cookie 必须包含非空的 ct0 值。</sys:String>
+ <sys:String x:Key="CookieSaved">Cookie 已安全保存。</sys:String>
+ <sys:String x:Key="CookieSaveFailed">无法保存 Cookie。</sys:String>
+ <sys:String x:Key="CookieCleared">Cookie 已清除。</sys:String>
+ <sys:String x:Key="CookieClearFailed">无法清除 Cookie。</sys:String>
+ <sys:String x:Key="CookieReadFailed">无法读取 Windows 凭据管理器。</sys:String>
+ <sys:String x:Key="MediaTitleFormat">媒体 #{0}：{1}</sys:String>
+ <sys:String x:Key="MediaTypeVideo">视频</sys:String><sys:String x:Key="MediaTypeGif">GIF</sys:String>
+ <sys:String x:Key="MediaTypePhoto">图片</sys:String><sys:String x:Key="OriginalImage">原始图片</sys:String>
+ <sys:String x:Key="OriginalGif">原始 MP4</sys:String>
+ <sys:String x:Key="NoDownloadableVariant">没有找到可直接下载的 MP4 清晰度。</sys:String>
+ <sys:String x:Key="Downloading">正在下载...</sys:String><sys:String x:Key="DownloadComplete">下载完成。</sys:String>
+ <sys:String x:Key="DownloadCanceled">下载已取消。</sys:String>
+ <sys:String x:Key="DownloadFailed">下载失败，请检查网络和保存路径。</sys:String>
+ <sys:String x:Key="OpenFailed">无法打开默认浏览器。</sys:String>
+ <sys:String x:Key="ErrorInvalidUrl">请输入有效的 x.com 或 twitter.com 推文链接。</sys:String>
+ <sys:String x:Key="ErrorProtected">该推文受保护，当前配置的账号无权访问。</sys:String>
+ <sys:String x:Key="ErrorCookieRequired">该推文需要 X Cookie，请在设置中添加。</sys:String>
+ <sys:String x:Key="ErrorCookieRejected">X 拒绝了当前 Cookie，请在设置中重新配置。</sys:String>
+ <sys:String x:Key="ErrorNoMedia">该推文中没有找到可下载的媒体。</sys:String>
+ <sys:String x:Key="ErrorTweetNotFound">未找到该推文。</sys:String>
+ <sys:String x:Key="ErrorUnavailable">该推文当前不可用。</sys:String>
+ <sys:String x:Key="ErrorNetwork">无法连接 X，请检查网络后重试。</sys:String>
+ <sys:String x:Key="ErrorUnexpected">出现意外错误，请稍后重试。🍌</sys:String>
+</ResourceDictionary>

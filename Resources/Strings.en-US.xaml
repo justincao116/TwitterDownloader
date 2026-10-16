@@ -1,0 +1,42 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+ <sys:String x:Key="AppTitle">X / Twitter Downloader</sys:String>
+ <sys:String x:Key="AppSubtitle">Paste a post link to find and save its media.</sys:String>
+ <sys:String x:Key="Settings">Settings</sys:String>
+ <sys:String x:Key="PastePlaceholder">Paste an x.com or twitter.com post URL...</sys:String>
+ <sys:String x:Key="Search">Search</sys:String><sys:String x:Key="Searching">Searching...</sys:String>
+ <sys:String x:Key="Download">Download</sys:String><sys:String x:Key="OpenBrowser">Open</sys:String>
+ <sys:String x:Key="Quality">Quality</sys:String><sys:String x:Key="Close">Close</sys:String>
+ <sys:String x:Key="SettingsTitle">Settings</sys:String><sys:String x:Key="Language">Language</sys:String>
+ <sys:String x:Key="CookieSection">X Cookie</sys:String>
+ <sys:String x:Key="CookieDescription">Optional. Used only for content your account is allowed to view.</sys:String>
+ <sys:String x:Key="CookieConfigured">A Cookie is securely stored for this Windows user.</sys:String>
+ <sys:String x:Key="CookieNotConfigured">No Cookie is configured.</sys:String>
+ <sys:String x:Key="CookiePlaceholder">Paste the complete Cookie string (must include ct0)</sys:String>
+ <sys:String x:Key="SaveCookie">Save / replace</sys:String><sys:String x:Key="ClearCookie">Clear Cookie</sys:String>
+ <sys:String x:Key="CookieSecurityNote">The Cookie is stored in Windows Credential Manager and is never written to logs or settings.json.</sys:String>
+ <sys:String x:Key="CookieInvalid">The Cookie must contain a non-empty ct0 value.</sys:String>
+ <sys:String x:Key="CookieSaved">Cookie saved securely.</sys:String>
+ <sys:String x:Key="CookieSaveFailed">Could not save the Cookie.</sys:String>
+ <sys:String x:Key="CookieCleared">Cookie cleared.</sys:String>
+ <sys:String x:Key="CookieClearFailed">Could not clear the Cookie.</sys:String>
+ <sys:String x:Key="CookieReadFailed">Could not read Windows Credential Manager.</sys:String>
+ <sys:String x:Key="MediaTitleFormat">Media #{0}: {1}</sys:String>
+ <sys:String x:Key="MediaTypeVideo">video</sys:String><sys:String x:Key="MediaTypeGif">GIF</sys:String>
+ <sys:String x:Key="MediaTypePhoto">photo</sys:String><sys:String x:Key="OriginalImage">Original image</sys:String>
+ <sys:String x:Key="OriginalGif">Original MP4</sys:String>
+ <sys:String x:Key="NoDownloadableVariant">No downloadable MP4 variant was found.</sys:String>
+ <sys:String x:Key="Downloading">Downloading...</sys:String><sys:String x:Key="DownloadComplete">Download complete.</sys:String>
+ <sys:String x:Key="DownloadCanceled">Download canceled.</sys:String>
+ <sys:String x:Key="DownloadFailed">Download failed. Check the network and destination path.</sys:String>
+ <sys:String x:Key="OpenFailed">Could not open the default browser.</sys:String>
+ <sys:String x:Key="ErrorInvalidUrl">Enter a valid x.com or twitter.com post URL.</sys:String>
+ <sys:String x:Key="ErrorProtected">This post is protected and cannot be accessed with the configured account.</sys:String>
+ <sys:String x:Key="ErrorCookieRequired">This post requires an X Cookie. Add one in Settings.</sys:String>
+ <sys:String x:Key="ErrorCookieRejected">X rejected the configured Cookie. Replace it in Settings.</sys:String>
+ <sys:String x:Key="ErrorNoMedia">No downloadable media was found in this post.</sys:String>
+ <sys:String x:Key="ErrorTweetNotFound">The post could not be found.</sys:String>
+ <sys:String x:Key="ErrorUnavailable">This post is unavailable.</sys:String>
+ <sys:String x:Key="ErrorNetwork">Could not connect to X. Check your network and try again.</sys:String>
+ <sys:String x:Key="ErrorUnexpected">Something went wrong. Please try again. 🍌</sys:String>
+</ResourceDictionary>
